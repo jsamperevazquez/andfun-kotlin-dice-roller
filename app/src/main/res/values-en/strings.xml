@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="roll">turn</string>
+    <string name="tirar">spinning</string>
+    <string name="otro">Other</string>
+</resources>
