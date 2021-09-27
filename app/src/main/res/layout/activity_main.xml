@@ -27,8 +27,8 @@
 
     <ImageView
         android:id="@+id/dice_image"
-        android:layout_width="451dp"
-        android:layout_height="439dp"
+        android:layout_width="390dp"
+        android:layout_height="351dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:contentDescription="@string/dice_default"
@@ -39,10 +39,15 @@
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="178dp"
-        android:layout_height="91dp"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="#E1E1E1"
+        android:drawableStart="@drawable/ic_dice_5_outline_black_36dp"
+        android:shadowColor="#C193D5"
         android:text="@string/roll"
-        android:textStyle="bold" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C0DA5F" />
 
 </LinearLayout>
