@@ -23,7 +23,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
+    //lateinit se usa para decirle al compilador que la voy a usar (poder dejarla sin inicializar)
     lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,14 +39,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        val randomInt = Random().nextInt(6) + 1
+        // cambio la función random() por shuffled.last()
+        val randomInt = (1..6).shuffled().last()
         val drawableResource = when (randomInt) {
-            1 -> R.drawable.dice_1
-            2 -> R.drawable.dice_2
-            3 -> R.drawable.dice_3
-            4 -> R.drawable.dice_4
-            5 -> R.drawable.dice_5
-            else -> R.drawable.dice_6
+            1 -> R.drawable.one
+            2 -> R.drawable.two
+            3 -> R.drawable.three
+            4 -> R.drawable.four
+            5 -> R.drawable.five
+            else -> R.drawable.six
         }
 
         diceImage.setImageResource(drawableResource)
