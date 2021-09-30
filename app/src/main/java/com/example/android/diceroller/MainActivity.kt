@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         // cambio la función random() por shuffled.last()
+        // Creada rama solución
         val randomInt = (1..6).shuffled().last()
         val drawableResource = when (randomInt) {
             1 -> R.drawable.one
