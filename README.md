@@ -25,8 +25,7 @@ Cambio los nombres a los distintos string que contiene el archivo y añado dos s
 Sustituyo todas las imágenes que trae la aplicación por otras que han sido descargadas.
 Para ello añado dichas imágenes al directorio res/drawable.
 En el when de la función rollDice hago llamada a cada una de ellas en función del número random.
-`
-    
+
     diceImage = findViewById(R.id.dice_image)
     }
 
@@ -45,7 +44,7 @@ En el when de la función rollDice hago llamada a cada una de ellas en función 
 
         diceImage.setImageResource(drawableResource)
     }
-`
+
 
 Primero cargo mi imagen por defecto en diceImage = findViewById(R.id.dice_image)
 
