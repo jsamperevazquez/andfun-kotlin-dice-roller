@@ -21,33 +21,35 @@
     android:layout_height="match_parent"
     android:layout_gravity="fill"
     android:background="#72E7F1"
+    android:gravity="center"
     android:orientation="vertical"
     android:visibility="visible"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/dice_image"
-        android:layout_width="390dp"
-        android:layout_height="351dp"
+        android:layout_width="482dp"
+        android:layout_height="552dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:contentDescription="@string/dice_default"
+        android:cropToPadding="false"
         android:padding="70dp"
+        android:scaleType="fitXY"
         android:visibility="visible"
         app:srcCompat="@drawable/dice3droll"
         tools:ignore="ImageContrastCheck" />
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="146dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#E1E1E1"
         android:drawableStart="@drawable/ic_dice_5_outline_black_36dp"
-        android:shadowColor="#C193D5"
         android:text="@string/roll"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:backgroundTint="#C0DA5F" />
+        app:icon="@drawable/ic_dice_5_outline_black_36dp"
+        style="@style/Widget.MaterialComponents.Button.Icon"/>
 
 </LinearLayout>
