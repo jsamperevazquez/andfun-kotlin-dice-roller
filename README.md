@@ -44,7 +44,8 @@ En el when de la función rollDice hago llamada a cada una de ellas en función 
         }
 
         diceImage.setImageResource(drawableResource)
-    }`
+    }
+`
 
 Primero cargo mi imagen por defecto en diceImage = findViewById(R.id.dice_image)
 
