@@ -28,8 +28,8 @@
 
     <ImageView
         android:id="@+id/dice_image"
-        android:layout_width="482dp"
-        android:layout_height="552dp"
+        android:layout_width="500dp"
+        android:layout_height="440dp"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:contentDescription="@string/dice_default"
