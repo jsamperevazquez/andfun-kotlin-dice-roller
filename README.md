@@ -13,6 +13,7 @@
 
 Cada **rama** tiene una acción a realizar con TODO y su respectiva solución
 ![Imagen Ramas](media/ramas.png)
+
 Propone una serie de tareas a realizar y en la siguiente rama da la solución
 
 ### Objetivo 2:
