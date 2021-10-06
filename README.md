@@ -63,5 +63,52 @@ Después en función del número salido en el random() saldrá la imagen corresp
 
 ![Imagen dado](media/imagenDado.png)
 
+### Objetivo 5:
+
+Cambio la función Random() por->
+
+    val randomInt = (1..6).shuffled().last()
+
+### Objetivo 6:
+
+Cambio el estilo del botón por defecto por los proporcionados por Material Design
+
+#### Pasos:
+
+1. Importar librería
+- Entrar en la [página oficial de Material Design](https://material.io/components/buttons/android)  
+- Pinchar en el link [Getting Started](https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md)
+- Abrir el archivo build.gradle en el proyecto de Android Studio
+- Comprobar que dentro de sección repositories esta google()
+- Añadir la librería en la sección de dependencies de build.gradle del módulo (Última versión [Aquí](https://mvnrepository.com/artifact/com.google.android.material/material))
+
+![Dependencies](media/dependencies.png)
+
+- Actualizar el tema que trae por defecto en /res/values/styles.xml
+
+![Estilos](media/styles.png)
+
+2. Definir estilo del botón
+- Dentro de la pagina oficial de Material Design escoger el botón que deseamos y copiar el la etiqueta Button(podremos crear el botón con la interfaz de diseño y copiar solamente el atributo style) con los atributos
+
+![Botón](media/button.png)
+
+
+3. Crear un icono
+- Descargar un icono de la [pagina](https://fonts.google.com/icons?selected=Material+Icons)  
+- Insertar el icono dentro de la carpeta /res/drawable
+- Apuntar al icono en atributo **app:icon** de la etiqueta <Button> en activity_main.xml
+
+
+
+
+
+
+
+
+
+
+
+
 
 
