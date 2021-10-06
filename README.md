@@ -84,7 +84,7 @@ Cambio el estilo del botón por defecto por los proporcionados por Material Desi
 
 ![Dependencies](media/dependencies.png)
 
-- Actualizar el tema que trae por defecto en /res/values/styles.xml
+- Actualizar el tema que trae por defecto en archivo _/res/values/styles.xml_
 
 ![Estilos](media/styles.png)
 
@@ -96,8 +96,8 @@ Cambio el estilo del botón por defecto por los proporcionados por Material Desi
 
 3. Crear un icono
 - Descargar un icono de la [pagina](https://fonts.google.com/icons?selected=Material+Icons)  
-- Insertar el icono dentro de la carpeta /res/drawable
-- Apuntar al icono en atributo **app:icon** de la etiqueta <Button> en activity_main.xml
+- Insertar el icono dentro de la carpeta _/res/drawable_
+- Apuntar al icono en atributo **app:icon** de la etiqueta _Button_ en activity_main.xml
 
 
 
