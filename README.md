@@ -25,6 +25,8 @@ Creo un strings a partir del existente para añadir el lenguaje inglés a la app
 ### Objetivo 3:
 
 Cambio los nombres a los distintos string que contiene el archivo y añado dos string nuevos para poder accerder a ellos en el código de la app
+
+
 ![Imagen strings](media/strings.png)
 
 ### Objetivo 4:
