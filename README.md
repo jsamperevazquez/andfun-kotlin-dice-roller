@@ -10,6 +10,10 @@
 6. Cambiar el estilo por defecto de los botones por material design
 
 ### Objetivo 1:
+Creo un strings a partir del existente para añadir el lenguaje inglés a la app 
+![String ingles](media/eng.png)
+
+### Objetivo 2:
 
 Cada **rama** tiene una acción a realizar con TODO y su respectiva solución
 ![Imagen Ramas](media/ramas.png)
