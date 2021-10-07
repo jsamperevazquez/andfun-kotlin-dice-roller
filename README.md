@@ -79,6 +79,9 @@ Cambio la función Random() por->
 
     val randomInt = (1..6).shuffled().last()
 
+
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/e646e7f2ec2a001083fdefb2e620f317d3db41a2)
+
 ### Objetivo 6:
 
 Cambio el estilo del botón por defecto por los proporcionados por Material Design
