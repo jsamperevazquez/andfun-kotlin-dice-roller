@@ -88,6 +88,9 @@ Cambio el estilo del botón por defecto por los proporcionados por Material Desi
 
 ![Estilos](media/styles.png)
 
+
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/7411d8e5aca276e477dd44486b7988816e44bc06)
+
 2. Definir estilo del botón
 - Dentro de la pagina oficial de Material Design escoger el botón que deseamos y copiar el la etiqueta Button(podremos crear el botón con la interfaz de diseño y copiar solamente el atributo style) con los atributos
 
