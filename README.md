@@ -21,6 +21,9 @@ Creo un strings a partir del existente para añadir el lenguaje inglés a la app
 ![String ingles](media/eng.png)
 
 
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/94366e07c6933bc5cad2b4bd9ec463a9a22e8ec3)
+
+
 
 ### Objetivo 3:
 
