@@ -116,7 +116,7 @@ url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-rol
 - Apuntar al icono en atributo **app:icon** de la etiqueta _Button_ en activity_main.xml
 
 
-
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/f1c5c4a817bc3e2b8d590720c7269f7c98f885e0)
 
 
 
