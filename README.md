@@ -69,6 +69,10 @@ Después en función del número salido en el random() saldrá la imagen corresp
 
 ![Imagen dado](media/imagenDado.png)
 
+
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/e646e7f2ec2a001083fdefb2e620f317d3db41a2)
+
+
 ### Objetivo 5:
 
 Cambio la función Random() por->
