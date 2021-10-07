@@ -32,6 +32,9 @@ Cambio los nombres a los distintos string que contiene el archivo y añado dos s
 
 ![Imagen strings](media/strings.png)
 
+url del commit [aquí](https://github.com/jsamperevazquez/andfun-kotlin-dice-roller/commit/49d46a827594df5ec35d5903ffb25a7f895dd3b1)
+
+
 ### Objetivo 4:
 
 Sustituyo todas las imágenes que trae la aplicación por otras que han sido descargadas.
